@@ -20,7 +20,11 @@ class GameContainer extends Component {
           <Jumbotron />
           <Row>
             <Col>
+            <Container>
+              <div className="d-flex flex-wrap justify-content-center">
               <Image friends={MCU} />
+              </div>
+            </Container>
             </Col>
           </Row>
         </Container>
