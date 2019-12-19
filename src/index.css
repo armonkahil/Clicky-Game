@@ -7,10 +7,8 @@ html, body, #root {
   padding: 0;
   margin: 0;
   height: 100%;
+  background: #F8BC51;
 }
-.movies {
-  background-image: url('https://bigpicturefilmclub.com/wp-content/uploads/2019/07/Marvel-Cinematic-Universe-MCU-First-10-Years-banner-1-wide.jpg');
-  background-repeat: repeat-y;
-  background-size: auto;
-  background-position: center;
+.jumbotron {
+  background: #F8BC51;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Container from "./Container";
-import Row from "./Row";
+import Row from "./Row/Row";
 import Col from "./Col";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
