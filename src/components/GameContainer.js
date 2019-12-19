@@ -5,12 +5,15 @@ import Col from "./Col";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import MCU from "./mcu.json";
-import Image from "./Image/index";
+import MovieCard from "./MovieCard/index";
 
 class GameContainer extends Component {
   state: {
-    score: 0
+     moviePicks: MCU,
+    score: 0,
+    highScore: 0
   };
+
 
   render() {
     return (
@@ -22,7 +25,7 @@ class GameContainer extends Component {
             <Col>
             <Container>
               <div className="d-flex flex-wrap justify-content-center">
-              <Image friends={MCU} />
+              <MovieCard movies={MCU} />
               </div>
             </Container>
             </Col>

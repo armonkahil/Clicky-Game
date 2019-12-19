@@ -2,147 +2,174 @@
   {
     "id": 1,
     "name": "MilesMorales",
-    "image": "https://upload.wikimedia.org/wikipedia/en/b/b8/Spider-Man_Into_the_Spider-Verse_%282018_poster%29.png" },
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b8/Spider-Man_Into_the_Spider-Verse_%282018_poster%29.png",
+    "picked": false
+  },
   {
     "id": 2,
     "name": "IamIronMan",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/7/70/Ironmanposter.JPG"
+      "https://upload.wikimedia.org/wikipedia/en/7/70/Ironmanposter.JPG",
+      "picked": false
   },
   {
     "id": 3,
     "name": "hulkSmash",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/8/88/The_Incredible_Hulk_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/8/88/The_Incredible_Hulk_poster.jpg",
+      "picked": false
   },
   {
     "id": 4,
     "name": "ironMan2",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg",
+      "picked": false
   },
   {
     "id": 5,
     "name": "thor1",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/f/fc/Thor_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/f/fc/Thor_poster.jpg",
+      "picked": false
   },
   {
     "id": 6,
     "name": "captainAmerica",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
+      "picked": false
   },
   {
     "id": 7,
     "name": "theAvengers",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
+      "picked": false
   },
   {
     "id": 8,
     "name": "ironMan3",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/d/d5/Iron_Man_3_theatrical_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/d/d5/Iron_Man_3_theatrical_poster.jpg",
+      "picked": false
   },
   {
     "id": 9,
     "name": "Thor2",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/7/7e/Thor_-_The_Dark_World_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/7/7e/Thor_-_The_Dark_World_poster.jpg",
+      "picked": false
   },
   {
     "id": 10,
     "name": "captainAmerica2",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/e/e8/Captain_America_The_Winter_Soldier.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/e/e8/Captain_America_The_Winter_Soldier.jpg",
+      "picked": false
   },
   {
     "id": 11,
     "name": "goG1",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/b/b5/Guardians_of_the_Galaxy_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/b/b5/Guardians_of_the_Galaxy_poster.jpg",
+      "picked": false
   },
   {
     "id": 12,
     "name": "Avengers2",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg",
+      "picked": false
   },
   {
     "id": 13,
     "name": "antMan",
-    "image": "https://upload.wikimedia.org/wikipedia/en/7/75/Ant-Man_poster.jpg" },
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/75/Ant-Man_poster.jpg",
+    "picked": false
+   },
   {
     "id": 14,
     "name": "captainAmerica3",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg",
+      "picked": false
   },
   {
     "id": 15,
     "name": "drStrange",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/c/c7/Doctor_Strange_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/c/c7/Doctor_Strange_poster.jpg",
+      "picked": false
   },
   {
     "id": 16,
     "name": "gog2",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/a/ab/Guardians_of_the_Galaxy_Vol_2_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/a/ab/Guardians_of_the_Galaxy_Vol_2_poster.jpg",
+      "picked": false
   },
   {
     "id": 17,
     "name": "homeComing",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
+      "picked": false
   },
   {
     "id": 18,
     "name": "thor3",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg",
+      "picked": false
   },
   {
     "id": 19,
     "name": "blackPanther",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/0/0c/Black_Panther_film_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/0/0c/Black_Panther_film_poster.jpg",
+      "picked": false
   },
   {
     "id": 20,
     "name": "infinity",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
+      "picked": false
   },
   {
     "id": 21,
     "name": "Wasp",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/2/2c/Ant-Man_and_the_Wasp_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/2/2c/Ant-Man_and_the_Wasp_poster.jpg",
+      "picked": false
   },
   {
     "id": 22,
     "name": "Marvel",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/8/85/Captain_Marvel_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/8/85/Captain_Marvel_poster.jpg",
+      "picked": false
   },
   {
     "id": 23,
     "name": "endGame",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+      "picked": false
   },
   {
     "id": 24,
     "name": "farfromHome",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/b/bd/Spider-Man_Far_From_Home_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/b/bd/Spider-Man_Far_From_Home_poster.jpg",
+      "picked": false
   },
   {
     "id": 24,
     "name": "blackWidow",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Black_Widow_poster.jpg/220px-Black_Widow_poster.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Black_Widow_poster.jpg/220px-Black_Widow_poster.jpg",
+      "picked": false
   }
 ]
