@@ -1,23 +1,22 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 
 function MovieCard(props) {
   return (
     <>
-    {props.movies.map(item=> (
-      <div className="card text-white float-left">
-      
-       <img src={item.image} className="card-img img-fluid" alt={item.name} key={item.id}></img>
-       <div className="card-img-overlay">
-    <h1 className="card-text">{item.id}</h1>
-       </div>
-  </div>
-      
-    ))
-    
-  }
-  </>
-  )
+      <div className="card text-white float-left" onClick={()=> props.picker(props.id)}>
+        <img
+          src={props.image}
+          className="card-img img-fluid"
+          alt={props.name}
+          key={props.id}
+        ></img>
+        {/* <div className="card-img-overlay">
+          <h1 className="card-text">{props.id}</h1>
+        </div> */}
+      </div>
+    </>
+  );
 }
 
-export default MovieCard
+export default MovieCard;

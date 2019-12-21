@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-function Navbar() {
+function Navbar(props) {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between text-center">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between text-center sticky-top">
         <span>
           <a className="navbar-brand" href="https://www.marvel.com/movies">
             <img
@@ -17,10 +17,12 @@ function Navbar() {
             Clicky Game
           </a>
         </span>
-        <span className="navbar-text text-light mr-5">
+        <span className="navbar-text text-light mr-5" onClick={props.theme()}>
           Click any picture to start
         </span>
-        <span className="navbar-text text-light">Score: 0 | High Score: 0</span>
+        <span className="navbar-text text-light">
+          Score: {props.score} | High Score: {props.highScore}
+        </span>
       </nav>
     </>
   );
