@@ -6,7 +6,7 @@ This is simple click game using React and Bootstrap.
 
 ## Instructions
 Click on any tile to begin. Click on any tile only once to score. Click on a tile more than once and the game ends. Good Luck.
-## **I love you 3000**
+## **I love you 3000!!!**
 
 # Technologies Used
 - React
@@ -14,5 +14,11 @@ Click on any tile to begin. Click on any tile only once to score. Click on a til
 - create-react-app
 - eslint
 - es6 
+- Heroku
+- gh-pages
 
 ![Marvel](/src/components/images/React&#32;Clicky&#32;-&#32;Edited.gif)
+
+# Deployments
+- # [Heroku](https://tranquil-beach-50121.herokuapp.com/)
+- # [Github Pages](https://armonkahil.github.io/Clicky-Game/)
