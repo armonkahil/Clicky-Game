@@ -16,7 +16,7 @@ Click on any tile to begin. Click on any tile only once to score. Click on a til
 - Heroku
 - gh-pages
 
-![Marvel](/src/components/images/React&#32;Clicky&#32;-&#32;Edited.gif)
+![Marvel](/src/components/images/reactClicky.gif)
 
 # Deployments
 - [Heroku](https://tranquil-beach-50121.herokuapp.com/)
