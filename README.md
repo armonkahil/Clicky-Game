@@ -19,5 +19,4 @@ Click on any tile to begin. Click on any tile only once to score. Click on a til
 ![Marvel](/src/components/images/reactClicky.gif)
 
 # Deployments
-- [Heroku](https://tranquil-beach-50121.herokuapp.com/)
 - [Github Pages](https://armonkahil.github.io/Clicky-Game/)
