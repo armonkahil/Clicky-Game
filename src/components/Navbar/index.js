@@ -17,7 +17,7 @@ function Navbar(props) {
             Clicky Game
           </a>
         </span>
-        <span className="navbar-text text-light mr-5" onClick={props.theme()}>
+        <span className="navbar-text text-light mr-5" onClick={()=> props.theme()}>
           Click any picture to start
         </span>
         <span className="navbar-text text-light">
