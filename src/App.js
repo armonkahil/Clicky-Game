@@ -4,7 +4,7 @@ import Row from './components/Row/Row'
 import Col from './components/Col'
 import Navbar from './components/Navbar'
 import Jumbotron from './components/Jumbotron'
-import mcu from './mcu.json'
+import mcu from './components/MCU'
 import MovieCard from './components/MovieCard/index'
 import theme from './components/images/marvel-studios-fanfare-hd.mp3'
 

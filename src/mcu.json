@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "MilesMorales",
-    "image": "https://upload.wikimedia.org/wikipedia/en/b/b8/Spider-Man_Into_the_Spider-Verse_%282018_poster%29.png",
+    "image": "../src/components/images/Spider-Man_Into_the_Spider-Verse_(2018_poster).png",
     "picked": false
   },
   {
