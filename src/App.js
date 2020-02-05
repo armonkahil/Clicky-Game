@@ -43,7 +43,7 @@ class App extends Component {
       })
       this.setState({ mcu, picks })
     } else {
-      alert('wrong answer')
+      alert(`Game Over, your score was ${this.state.score}. Click the screen to play again!!!`)
       this.gameOver(this.state.highScore)
     }
   }
