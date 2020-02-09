@@ -1,4 +1,4 @@
-# [React Clicky Game](https://tranquil-beach-50121.herokuapp.com/)
+# React Clicky Game
 ![Marvel](/src/components/images/Marvel-Cinematic-Universe-MCU-First-10-Years-banner-1-wide.jpg)
 
 ## A React.js Assignment
