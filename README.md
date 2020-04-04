@@ -1,4 +1,4 @@
-# React Clicky Game
+# React Clicky Game [![Maintainability](https://api.codeclimate.com/v1/badges/640d31ab17779f9e7e0e/maintainability)](https://codeclimate.com/github/armonkahil/Clicky-Game/maintainability)
 ![Marvel](/src/components/images/Marvel-Cinematic-Universe-MCU-First-10-Years-banner-1-wide.jpg)
 
 ## A React.js Assignment
