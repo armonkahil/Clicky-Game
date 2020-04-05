@@ -1,7 +1,7 @@
-import React from "react";
-import "./style.css";
+import React from 'react'
+import './style.css'
 
-function Navbar(props) {
+const Navbar = ({ theme, score, highScore }) => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between text-center sticky-top">
@@ -13,19 +13,19 @@ function Navbar(props) {
               width="100"
               height="100"
               alt=""
-            ></img>{" "}
+            />{' '}
             Clicky Game
           </a>
         </span>
-        <h2 className="navbar-text text-light mr-5" onClick={()=> props.theme()}>
+        <h2 className="navbar-text text-light mr-5" onClick={() => theme()}>
           Click any picture to start
         </h2>
         <span className="navbar-text text-light">
-          Score: {props.score} | High Score: {props.highScore}
+          Score: {score} | High Score: {highScore}
         </span>
       </nav>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

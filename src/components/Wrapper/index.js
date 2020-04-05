@@ -1,8 +1,20 @@
-import React from "react";
-import "./style.css";
+import React from 'react'
+import Row from '../Row'
+import Col from '../Col'
+import Jumbotron from '../Jumbotron'
+import Container from '../Container'
 
-function Wrapper(props) {
-  return <div className="wrapper">{props.children}</div>;
+const Wrapper = ({ children }) => {
+  return (
+    <Container>
+      <Jumbotron />
+      <Row>
+        <Col>
+          <Container>{children}</Container>
+        </Col>
+      </Row>
+    </Container>
+  )
 }
 
-export default Wrapper;
+export default Wrapper

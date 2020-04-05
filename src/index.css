@@ -3,12 +3,14 @@
   font-family: sans-serif;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   padding: 0;
   margin: 0;
   height: 100%;
-  background: #F8BC51;
+  background: #f8bc51;
 }
 .jumbotron {
-  background: #F8BC51;
+  background: #f8bc51;
 }

@@ -1,7 +1,6 @@
 .card {
-  
   margin: 10px;
-  transition: transform .5s; /* Animation */
+  transition: transform 0.5s; /* Animation */
 }
 .card-img {
   height: 234px !important;

@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
-import Container from './components/Container'
-import Row from './components/Row/Row'
-import Col from './components/Col'
+import Wrapper from './components/Wrapper'
 import Navbar from './components/Navbar'
-import Jumbotron from './components/Jumbotron'
 import mcu from './components/MCU'
 import MovieCard from './components/MovieCard/index'
 import theme from './components/images/marvel-studios-fanfare-hd.mp3'
 
 class App extends Component {
-  state = {
-    mcu,
-    score: 0,
-    highScore: 0,
-    picks: mcu
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      mcu,
+      score: 0,
+      highScore: 0,
+      picks: mcu
+    }
   }
 
   gameOver = newHighScore => {
@@ -27,7 +28,7 @@ class App extends Component {
   }
 
   theme = () => {
-    let themeMusic = new Audio(theme)
+    const themeMusic = new Audio(theme)
     if (themeMusic.play === true) {
       themeMusic.pause()
     }
@@ -37,52 +38,54 @@ class App extends Component {
   picker = id => {
     if (this.state.mcu.some(element => element.id === id)) {
       this.scored()
+      // eslint-disable-next-line no-shadow
       const mcu = this.state.mcu.filter(movie => movie.id !== id)
-      const picks = this.state.picks.sort(function(a, b) {
+
+      const picks = this.state.picks.sort(function (a, b) {
         return 0.5 - Math.random()
       })
       this.setState({ mcu, picks })
     } else {
-      alert(`Game Over, your score was ${this.state.score}. Click the screen to play again!!!`)
+      alert(
+        `Game Over, your score was ${this.state.score}. Click the screen to play again!!!`
+      )
       this.gameOver(this.state.highScore)
     }
   }
 
   scored = () => {
-    let { score, highScore } = this.state
-    score = score + 1
+    let { score } = this.state
+    const { highScore } = this.state
+    score += 1
     if (score > highScore) {
-      this.setState({ highScore: score, score: score })
+      this.setState({ highScore: score, score })
     } else {
-      this.setState({ score: score })
+      this.setState({ score })
     }
   }
 
   render() {
     return (
       <>
-        <Navbar score={this.state.score} highScore={this.state.highScore} theme={this.theme} />
-        <Container>
-          <Jumbotron />
-          <Row>
-            <Col>
-              <Container>
-                <div className='d-flex flex-wrap justify-content-center'>
-                  {this.state.picks.map(movie => (
-                    <MovieCard
-                      scored={this.scored}
-                      picker={this.picker}
-                      id={movie.id}
-                      key={movie.id}
-                      name={movie.name}
-                      image={movie.image}
-                    />
-                  ))}
-                </div>
-              </Container>
-            </Col>
-          </Row>
-        </Container>
+        <Navbar
+          score={this.state.score}
+          highScore={this.state.highScore}
+          theme={this.theme}
+        />
+        <Wrapper>
+          <div className="d-flex flex-wrap justify-content-center">
+            {this.state.picks.map(({ id, name, image }) => (
+              <MovieCard
+                scored={this.scored}
+                picker={this.picker}
+                id={id}
+                key={id}
+                name={name}
+                image={image}
+              />
+            ))}
+          </div>
+        </Wrapper>
       </>
     )
   }
