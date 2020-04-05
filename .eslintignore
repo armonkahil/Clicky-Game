@@ -4,3 +4,4 @@ dist/
 settings.json
 .vscode/
 App.js
+App.test.js
