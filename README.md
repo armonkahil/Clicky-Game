@@ -14,12 +14,13 @@ Click on any tile to begin. Click on any tile only once to score. Click on a til
 
 # Technologies Used
 
-- React
-- Bootstrap
-- create-react-app
-- es6
-- Heroku
-- gh-pages
+- [React](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Create-react-app](https://create-react-app.dev/)
+- [ES6](https://es6-features.org/#Constants)
+- [gh-pages](https://github.com/tschaub/gh-pages)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
 ![Marvel](/src/components/images/reactClicky.gif)
 
