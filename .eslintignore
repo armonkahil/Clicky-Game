@@ -1,6 +1,0 @@
-build/
-node_modules/
-dist/
-settings.json
-.vscode/
-App.js
